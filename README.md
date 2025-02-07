@@ -1,4 +1,5 @@
 EN:
+
 This implementation includes: 
 
 TypeScript interfaces for game state and score history 
@@ -38,8 +39,10 @@ Each component has a single responsibility, adhering to the Single Responsibilit
 
 The code is clean, readable, and maintainable.
 
+-----------------------------------------------------------------------
 
 VI:
+
 Việc triển khai này bao gồm:
 
 Các giao diện TypeScript cho trạng thái trò chơi và lịch sử điểm số
