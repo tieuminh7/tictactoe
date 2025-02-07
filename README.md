@@ -1,46 +1,83 @@
-# Getting Started with Create React App
+EN:
+This implementation includes: 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TypeScript interfaces for game state and score history 
 
-## Available Scripts
+A responsive 3x3 grid using CSS Grid 
 
-In the project directory, you can run:
+Win condition checking 
 
-### `npm start`
+Draw detection 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Score history tracking with timestamps 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Clean and modern UI with hover states 
 
-### `npm test`
+Game state management using React hooks 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Proper TypeScript type annotations 
 
-### `npm run build`
+Restart functionality 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Disabled interactions when game is over 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The game follows all specified requirements and includes responsive styling for different screen sizes. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The score history persists between games and shows the outcome of each match along with a timestamp. 
 
-### `npm run eject`
+The UI is clean and intuitive, with clear status messages and a restart button.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+HOW TO RUN:
+Use the command: npm install to install the packages.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Use the command: npm start to run.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The application is divided into small, manageable, and testable components.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Each component has a single responsibility, adhering to the Single Responsibility Principle.
 
-## Learn More
+The code is clean, readable, and maintainable.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+VI:
+Việc triển khai này bao gồm:
+
+Các giao diện TypeScript cho trạng thái trò chơi và lịch sử điểm số
+
+Lưới 3x3 đáp ứng sử dụng CSS Grid
+
+Kiểm tra điều kiện thắng
+
+Phát hiện hòa
+
+Theo dõi lịch sử điểm số với dấu thời gian
+
+Giao diện người dùng hiện đại và gọn gàng với các trạng thái di chuột
+
+Quản lý trạng thái trò chơi sử dụng React hooks
+
+Các chú thích kiểu TypeScript thích hợp
+
+Chức năng khởi động lại
+
+Tắt tương tác khi trò chơi kết thúc
+
+Trò chơi tuân thủ tất cả các yêu cầu được chỉ định và bao gồm kiểu dáng đáp ứng cho các kích cỡ màn hình khác nhau.
+
+Lịch sử điểm số được lưu giữa các trò chơi và hiển thị kết quả của mỗi trận đấu cùng với dấu thời gian.
+
+Giao diện người dùng gọn gàng và trực quan, với các thông báo trạng thái rõ ràng và một nút khởi động lại.
+
+HƯỚNG DẪN CHẠY:
+
+Sử dung lệnh: npm install để cài các gói cài đặt.
+
+Sử dung lệnh: npm start để chạy.
+
+Ứng dụng được chia thành các component nhỏ, dễ quản lý và kiểm tra.
+
+Mỗi component có trách nhiệm riêng, tuân thủ nguyên tắc Single Responsibility.
+
+Code sạch sẽ, dễ đọc và bảo trì.
+
+
