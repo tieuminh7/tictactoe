@@ -39,6 +39,9 @@ Each component has a single responsibility, adhering to the Single Responsibilit
 
 The code is clean, readable, and maintainable.
 
+LINK DEPLOY:
+
+https://tictactoe-zeta-taupe.vercel.app/
 -----------------------------------------------------------------------
 
 VI:
@@ -83,4 +86,6 @@ Mỗi component có trách nhiệm riêng, tuân thủ nguyên tắc Single Resp
 
 Code sạch sẽ, dễ đọc và bảo trì.
 
+LIÊN KẾT TRIỂN KHAI:
 
+https://tictactoe-zeta-taupe.vercel.app/
